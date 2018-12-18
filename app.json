@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "打羽毛球AA",
+    "navigationBarTextStyle":"black",
+    "backgroundColorTop":"#000",
+    "backgroundColorBottom":"#000",
+    "enablePullDownRefresh":false
+  }
+}

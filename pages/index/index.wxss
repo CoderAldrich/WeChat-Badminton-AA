@@ -1,0 +1,220 @@
+/**index.wxss**/
+
+.fee {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fee-price {
+  margin-right: 50px;
+  color: #aaa;
+}
+
+.fee-count {
+  margin-right: 40px;
+  color: #aaa;
+}
+
+.fee-ground {
+  color: #aaa;
+}
+
+/*list*/
+
+.list {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #aaa;
+}
+
+.list-line1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-rsl5 {
+  color: rgb(128, 124, 124);
+}
+
+.list-num5 {
+  margin-left: 30px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-price5 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-ground1 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-line2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-rsl6 {
+  color: rgb(128, 124, 124);
+}
+
+.list-num6 {
+  margin-left: 30px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-price6 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-ground2 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-line3 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-rsl7 {
+  color: rgb(128, 124, 124);
+}
+
+.list-num7 {
+  margin-left: 30px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-price7 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-ground3 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-line4 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-other {
+  color: rgb(128, 124, 124);
+}
+
+.list-num-other {
+  margin-left: 14px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-price-other {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-ground4 {
+  margin-left: 25px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-line5 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-all {
+  color: rgb(128, 124, 124);
+}
+
+.list-all-ball {
+  margin-left: 40px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-all-ground {
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-all-all {
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.calc {
+  margin-top: 20px;
+  border-radius:10px;
+  color: rgb(0, 0, 0);
+}
+
+
+.list-members {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.list-mem {
+  color: rgb(128, 124, 124);
+}
+
+.list-half {
+  margin-left: 20px;
+  color: rgb(128, 124, 124);
+}

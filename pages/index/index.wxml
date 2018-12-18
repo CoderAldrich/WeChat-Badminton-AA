@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='fee'>
+    <text class='fee-price'>{{count}}</text>
+    <text class='fee-count'>{{price}}</text>
+    <text class='fee-ground'>{{ground}}</text>
+  </view>
+
+  <view class="list">
+    <view class='list-line1'>
+      <text class='list-rsl5'>{{rsl5}}</text>
+      <input type='number'       confirm-type='next'  bindinput='getrsl5num'
+      confirm-hold='true'        class='list-num5'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getrsl5price'
+      confirm-hold='true'        class='list-price5'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getground1'
+      confirm-hold='true'         class='list-ground1'></input>
+    </view>
+
+    <view class='list-line2'>
+      <text class='list-rsl6'>{{rsl6}}</text>
+      <input type='number'       confirm-type='next'  bindinput='getrsl6num'
+      confirm-hold='true'         class='list-num6'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getrsl6price'
+      confirm-hold='true'         class='list-price6'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getground2'
+      confirm-hold='true'         class='list-ground2'></input>
+    </view>
+
+    <view class='list-line3'>
+      <text class='list-rsl7'>{{rsl7}}</text>
+      <input type='number'       confirm-type='next'  bindinput='getrsl7num'
+      confirm-hold='true'         class='list-num7'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getrsl7price'
+      confirm-hold='true'         class='list-price7'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getground3'
+      confirm-hold='true'         class='list-ground4'></input>
+    </view>
+
+    <view class='list-line4'>
+      <text class='list-other'>{{other}}</text>
+      <input type='number'       confirm-type='next'  bindinput='getothernum'
+      confirm-hold='true'         class='list-num-other'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getotherprice'
+      confirm-hold='true'         class='list-price-other'></input>
+      <input type='digit'       confirm-type='next'  bindinput='getground4'
+      confirm-hold='true'         class='list-ground4'></input>
+    </view>
+
+    <view class='list-members'>
+      <text class='list-mem'>{{members}}</text>
+      <input type='number'       confirm-type='next'  bindinput='getallmembers'
+      confirm-hold='true'         class='list-num-other'></input>
+      <text class='list-half'>{{half}}</text>
+      <input type='number'       confirm-type='next'  bindinput='gethalfmembers'
+      confirm-hold='true'         class='list-num-other'></input>
+    </view>
+
+    <view class='list-line5'>
+      <text class='list-all'>{{total}}</text>
+      <input disabled='true' class='list-all-ball'>{{allball}}</input>
+      <text>+</text>
+      <input disabled='true' class='list-all-ground'>{{allground}}</input>
+      <text>=</text>
+      <input disabled='true' class='list-all-all'>{{all}}</input>
+    </view>
+  </view>
+
+  <button bindtap='calc' class='calc'>AA</button>
+</view>
